@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "alrightsans-black";
+  src: url("../fonts/alrightsans/alrightsans-black.otf");
+}
+.alrightsans-black {
+  font-family: alrightsans-black;
+}
+
+@font-face {
+  font-family: "alrightsans-blackitalic";
+  src: url("../fonts/alrightsans/alrightsans-blackitalic.otf");
+}
+.alrightsans-blackitalic {
+  font-family: alrightsans-blackitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-bold";
+  src: url("../fonts/alrightsans/alrightsans-bold.otf");
+}
+.alrightsans-bold {
+  font-family: alrightsans-bold;
+}
+
+@font-face {
+  font-family: "alrightsans-bolditalic";
+  src: url("../fonts/alrightsans/alrightsans-bolditalic.otf");
+}
+.alrightsans-bolditalic {
+  font-family: alrightsans-bolditalic;
+}
+
+@font-face {
+  font-family: "alrightsans-extrathin";
+  src: url("../fonts/alrightsans/alrightsans-extrathin.otf");
+}
+.alrightsans-extrathin {
+  font-family: alrightsans-extrathin;
+}
+
+@font-face {
+  font-family: "alrightsans-extrathinitalic";
+  src: url("../fonts/alrightsans/alrightsans-extrathinitalic.otf");
+}
+.alrightsans-extrathinitalic {
+  font-family: alrightsans-extrathinitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-light";
+  src: url("../fonts/alrightsans/alrightsans-light.otf");
+}
+.alrightsans-light {
+  font-family: alrightsans-light;
+}
+
+@font-face {
+  font-family: "alrightsans-lightitalic";
+  src: url("../fonts/alrightsans/alrightsans-lightitalic.otf");
+}
+.alrightsans-lightitalic {
+  font-family: alrightsans-lightitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-medium";
+  src: url("../fonts/alrightsans/alrightsans-medium.otf");
+}
+.alrightsans-medium {
+  font-family: alrightsans-medium;
+}
+
+@font-face {
+  font-family: "alrightsans-mediumitalic";
+  src: url("../fonts/alrightsans/alrightsans-mediumitalic.otf");
+}
+.alrightsans-mediumitalic {
+  font-family: alrightsans-mediumitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-regular";
+  src: url("../fonts/alrightsans/alrightsans-regular.otf");
+}
+.alrightsans-regular {
+  font-family: alrightsans-regular;
+}
+
+@font-face {
+  font-family: "alrightsans-regularitalic";
+  src: url("../fonts/alrightsans/alrightsans-regularitalic.otf");
+}
+.alrightsans-regularitalic {
+  font-family: alrightsans-regularitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-thin";
+  src: url("../fonts/alrightsans/alrightsans-thin.otf");
+}
+.alrightsans-thin {
+  font-family: alrightsans-thin;
+}
+
+@font-face {
+  font-family: "alrightsans-thinitalic";
+  src: url("../fonts/alrightsans/alrightsans-thinitalic.otf");
+}
+.alrightsans-thinitalic {
+  font-family: alrightsans-thinitalic;
+}
+
+@font-face {
+  font-family: "alrightsans-ultra";
+  src: url("../fonts/alrightsans/alrightsans-ultra.otf");
+}
+.alrightsans-ultra {
+  font-family: alrightsans-ultra;
+}
+
+@font-face {
+  font-family: "alrightsans-ultraitalic";
+  src: url("../fonts/alrightsans/alrightsans-ultraitalic.otf");
+}
+.alrightsans-ultraitalic {
+  font-family: alrightsans-ultraitalic;
+}
