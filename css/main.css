@@ -1,0 +1,87 @@
+/*
+	width: 1200px;
+	green: rgb(207, 227, 60);
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 100%;
+	font-family: 'alrightsans-regular';
+}
+
+/*
+	General
+*/
+
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box
+}
+
+.content {
+	width: 1200px;
+	margin-left: -600px;
+	left: 50%;
+	position: absolute;
+}
+
+/*
+	Navigation
+*/
+#navBar {
+	height: 60px;
+	padding: 12px;
+	background-color: rgb(207, 227, 60);
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.navButton {
+	display: inline-block;
+	font-family: 'alrightsans-bold';
+	float: right;
+	padding: 12px;
+	color: black;
+	opacity: .1;
+}
+
+.navButton:hover,
+.navButton.selected {
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+}
+
+/*
+	Home
+*/
+#home {
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/touchOfColorCar.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#home .content {
+	height: 100%;
+}
+
+#moto {
+	font-family: 'alrightsans-bold';
+	font-size: 48px;
+	text-align: right;
+	color: white;
+	position: absolute;
+	bottom: 80px;
+	right: 0;
+
+}
