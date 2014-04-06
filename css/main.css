@@ -45,6 +45,9 @@ h2 {
   color: white;
   font-family: 'alrightsans-bold';
   display: inline-block;
+  margin-right: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -121,4 +124,30 @@ p {
   bottom: 80px;
   right: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+  }
+ /*
+   Team
+*/
+
+.capstoneGroup {
+  width: 25%;
+  display: block;
+  float: left;
+  padding-right: 20px;
+}
+
+.thumbnail {
+  height: 550px;
+  /*border: 5px solid rgb(65, 64, 66);*/
+}
+
+.caption-alt h3, .caption-alt p {
+  color: white;
+}
+
+#year2Competition {
+  float: right;
+  width: 800px; 
+  height: 800px;
 }
