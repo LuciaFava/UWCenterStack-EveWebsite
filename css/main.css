@@ -139,15 +139,23 @@ p {
 
 .thumbnail {
   height: 550px;
-  /*border: 5px solid rgb(65, 64, 66);*/
 }
 
 .caption-alt h3, .caption-alt p {
   color: white;
 }
 
-#year2Competition {
+#year2Competition, #playbook, #ecoTeamPic{
   float: right;
-  width: 800px; 
-  height: 800px;
+  width: 40%; 
+  height: 30%;
+}
+
+.leftPanelContent {
+  width: 55%;
+  min-height: 300px;
+}
+
+#otherNames {
+  padding-left: 5em;
 }
