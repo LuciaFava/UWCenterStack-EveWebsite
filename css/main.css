@@ -12,6 +12,8 @@ html, body {
   height: 100%;
   font-family: 'alrightsans-regular';
   -webkit-font-feature-settings: 'tnum', 'lnum';
+  -moz-font-feature-settings: 'tnum', 'lnum';
+  font-feature-settings: 'tnum', 'lnum';
   color: rgb(65, 64, 66);
 }
 
@@ -77,13 +79,14 @@ b {
   bottom: 0;
   left: 0;
   width: 100%;
+  min-width: 1200px;
   z-index: 100;
 }
 
 #navBar .content {
   background-image: url('../images/logoMedium.png');
   background-repeat: no-repeat;
-  background-position-y: 12px;
+  background-position: 0 12px;
   padding: 12px;
   height: 60px;
 }
@@ -151,8 +154,7 @@ b {
   bottom: 80px;
   right: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-
-  }
+}
 
 /*
   Team
@@ -162,6 +164,7 @@ b {
   display: block;
   float: left;
   padding-right: 20px;
+  margin-top: 20px;
 }
 
 .capstoneGroup .thumbnail {
