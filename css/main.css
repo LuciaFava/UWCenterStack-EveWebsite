@@ -97,9 +97,22 @@ p {
 #home {
   height: 100%;
   width: 100%;
-  background-image: url('../images/touchOfColorCar.jpg');
+  background-image: url('../images/touchOfColorCarSmall.jpg');
+  background-color: rgb(116, 116, 116);
   background-size: cover;
   background-position: center center;
+}
+
+@media (min-width: 1306px), (min-height: 721px) {
+  #home {
+    background-image: url('../images/touchOfColorCarMedium.jpg');
+  }
+}
+
+@media (min-width: 1959px), (min-height: 1081px) {
+  #home {
+    background-image: url('../images/touchOfColorCarLarge.jpg');
+  }
 }
 
 #home .content {
