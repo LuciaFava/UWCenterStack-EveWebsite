@@ -17,5 +17,18 @@ main.js
             var target = $('#' + $(this).attr('data-target'));
             $('body, html').animate({scrollTop: target.offset().top - $('#navBar').outerHeight()}, 500);
         }); 
-    })
+    });
+	
+	$('#myCarousel').carousel({
+		interval:false
+	});
+
+	$('#pauseButton').click(function() {
+		$('#myCarousel').carousel('pause');
+	});
+
+	$('#playButton').click(function() {
+		$('#myCarousel').data('bs.carousel').options.interval=1000;
+		$('#myCarousel').carousel('cycle');
+	});
 })()
