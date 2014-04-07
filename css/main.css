@@ -230,3 +230,12 @@ p {
   display: inline-block;
   float: left;
 }
+
+/*
+  Notebook
+*/
+.post {
+  background-color: rgb(240, 240, 240);
+  padding: 12px;
+  margin-top: 20px;
+}
