@@ -69,6 +69,21 @@ b {
   font-weight: normal;
 }
 
+.rightPanelContent {
+  width: 40%;
+  min-height: 300px;
+}
+
+.leftPanelContent {
+  width: 55%;
+  min-height: 300px;
+}
+
+.caption {
+  font-family: 'alrightsans-medium';
+  font-weight: normal;
+}
+
 /*
   Navigation
 */
@@ -178,24 +193,45 @@ b {
   padding: 10px 0px;
 }
 
-.capstoneGroup img {
+.capstoneGroup .portrait {
   width: 260px;
   height: 300px;
+}
+
+.capstoneGroup .portrait.mitch {
+  background-image: url('../images/mitch.jpg');
+}
+
+.capstoneGroup .portrait.vinod {
+  background-image: url('../images/vinod.jpg');
+}
+
+.capstoneGroup .portrait.nate {
+  background-image: url('../images/nate.jpg');
+}
+
+.capstoneGroup .portrait.ryan {
+  background-image: url('../images/ryan.jpg');
 }
 
 .caption-alt h3, .caption-alt p {
   color: white;
 }
 
+#year2Competition .image {
+  height: 351px;
+  background-image: url('../images/year2Competition.jpg');
+}
+
+#playbook .image {
+  height: 320px;
+  background-image: url('../images/playbook.jpg');
+}
+
 #year2Competition, #playbook, #ecoTeamPic{
   float: right;
   width: 40%; 
   height: 30%;
-}
-
-.leftPanelContent {
-  width: 55%;
-  min-height: 300px;
 }
 
 #otherNames {

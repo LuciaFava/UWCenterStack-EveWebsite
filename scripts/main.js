@@ -13,10 +13,18 @@ main.js
     });
 
     $('.navButton').each(function() {
+        var navButton = $(this);
+        var target = $('#' + navButton.attr('data-target'));
+
         $(this).click(function() {
-            var target = $('#' + $(this).attr('data-target'));
             $('body, html').animate({scrollTop: target.offset().top - $('#navBar').outerHeight()}, 500);
-        }); 
+        });
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >= target.offset().top - $('#navBar').outerHeight() && $(window).scrollTop() < target.offset().top + target.outerHeight() - $('#navBar').outerHeight()) {
+                select(navButton);
+            } 
+        });
     });
 	
 	$('#myCarousel').carousel({
@@ -31,4 +39,9 @@ main.js
 		$('#myCarousel').data('bs.carousel').options.interval=1000;
 		$('#myCarousel').carousel('cycle');
 	});
+
+    function select(element) {
+        $('.navButton.selected').removeClass('selected');
+        element.addClass('selected');
+    }
 })()
