@@ -32,6 +32,8 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1 {
@@ -218,9 +220,18 @@ b {
   color: white;
 }
 
-#year2Competition .image {
+#teamPics #image1 {
   height: 351px;
   background-image: url('../images/year2Competition.jpg');
+}
+
+#teamPics #image2 {
+  height: 351px;
+  background-image: url('../images/teamPicture.jpg');
+}
+
+#teamPics .caption {
+  margin-bottom: 100px;
 }
 
 #playbook .image {
@@ -228,7 +239,7 @@ b {
   background-image: url('../images/playbook.jpg');
 }
 
-#year2Competition, #playbook, #ecoTeamPic{
+#teamPics, #playbook, #ecoTeamPic {
   float: right;
   width: 40%; 
   height: 30%;
