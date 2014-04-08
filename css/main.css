@@ -241,47 +241,26 @@ b {
 /*
   Project
 */
-#myCarousel {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+
+
+.leftGoalPanel, .rightGoalPanel {
+  width: 45%;
 }
 
-.carousel-control {
-  padding-top: 50%;
-  margin: 0px;
-  padding: 0px;
-}
-
-.item img {
-  min-height: 480px;
-}
-
-.carousel-caption {
-  background-color: rgb(207, 227, 60);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 15px;
-  color: black;
-}
-
-#carouselButtons {
-  width: 70px;
-  height: 40px;
-  top: 5%;
-  right: 5%;
-  margin-left: 800px;
-  position: absolute;
-  bottom: 495px;
-}
-
-#carouselButtons button  {
-  margin-left: 2px;
-  display: inline-block;
+.leftGoalPanel {
   float: left;
 }
+
+.rightGoalPanel {
+  float: right;
+}
+
+#mainGoals {
+  width: 1200px;
+  height: 400px;
+}
+
+
 
 /*
   Notebook
