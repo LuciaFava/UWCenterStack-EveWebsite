@@ -266,8 +266,8 @@ b {
   float: right;
 }
 
-#mainGoals {
-  width: 1200px;
+#mainGoals p {
+  font-size: 18px;
 }
 
 #freeScale .image {
