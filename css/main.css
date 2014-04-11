@@ -280,18 +280,23 @@ a:hover {
 }
 
 #freeScale .image {
-  margin-top: 150px; 
   height: 440px;
   background-image: url('../images/imx6.jpg');
 }
 
+#bezel, #music {
+  width: 360px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+}
+
 #bezel .image { 
-  height: 480px;
+  height: 360px;
   background-image: url('../images/bezel.png');
 }
 
 #music .image { 
-  height: 742px;
+  height: 557px;
   background-image: url('../images/music.png');
 }
 
