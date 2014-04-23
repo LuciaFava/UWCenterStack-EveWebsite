@@ -290,11 +290,30 @@
                 </h1>
 
                 <div class="post">
+                    <h3>April 23rd, 2014</h3>
+                    <p>
+                        <b>In the past week:</b><br>
+                        <br>
+                        We met with Chen on Tuesday to get his advice on vibration, and will be meeting with Sidhant today to learn about the pre-touch sensing. Form Chen, we discovered that way he was able to simulate different textures would not work with our project due to the necessry requirements such as a glass overlay over the screen.<br>
+                        <br>
+                        Vinod and Mitchell began work on the climate control application. As the other two applications will also use much of the same overall design, we decided to take some more time to really get the functionality of the sliders working well. As of now, we have the slider to change the temperature of fans near working. Both of us also worked on the PRD.<br>
+                        <br>
+                        Ryan and Nate built a few different Yocto-based Linux distros with some settings pre-baked into the distro such as enabling the CAN and HDMI controllers automatically (previously a manual change), but that was as far as they got as pre-bundling things in the image. They attempted and failed to build nw for the Freescale i.MX6 and decided to ditch that hardware platform. They began to mock-up a general-purpose microcontroller board/circuit to handle our vibration and pre-touch control. Nate also helped with PRD.<br>
+                        <br>
+                        <b>For next week:</b><br>
+                        <br>
+                        Mitchell and Vinod will get the overall framework of the applications figured out and complete. We will also interface the UI with CANbus, and test to see if climate control perform well.<br>
+                        <br>
+                        Ryan and Nate will plan to have an understanding of how to process sound inputs to measure the Doppler effect in an effort to choose a microcontroller architecture (processing power-wise) to move forward with.<br>
+                    </p>
+                </div>
+
+                <div class="post">
                     <h3>April 16th, 2014</h3>
                     <p>
                         <b>In the past week:</b><br>
                         <br>
-                        Vinod and Mitchell completed the Project Proposal. We also finalized the architecture for CAN messages. As of now, as we constantly read messages through GMLAN high speed, we are also able to write messages through GMLAN low speed for climate control. Mitchell worked with the Arduino board and was able to confirm being able to use it with <a href="https://github.com/rwaldron/johnny-five">johnny-five</a>, a Javascript Arduino Programming framework.<br>
+                        Vinod and Mitchell completed the Project Proposal. We also finalized the architecture for CAN messages. As of now, as we constantly read messages through the UW high speed network, we are also able to write messages through GMLAN low speed for climate control. Mitchell worked with the Arduino board and was able to confirm being able to use it with <a href="https://github.com/rwaldron/johnny-five">johnny-five</a>, a Javascript Arduino Programming framework.<br>
                         <br>
                         Ryan and Nate were able to get Linux installed on the FreeScale i.MX6. However, as of now it cannot detect the USB and HDMI, and we believe this may be due to the difficulties of getting it to shutdown properly without pulling the plug.<br>
                         <br>
