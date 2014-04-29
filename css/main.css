@@ -97,6 +97,16 @@ a:hover {
   font-weight: normal;
 }
 
+.page {
+  position: relative;
+  left: 600px;
+  width: 850px;
+  height: 1100px;
+  margin: 20px 0px 20px -425px;
+  box-shadow: lightgray 0px 0px 5px 1px;
+  display: block;
+}
+
 /*
   Navigation
 */
