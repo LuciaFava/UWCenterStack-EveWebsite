@@ -310,6 +310,38 @@
 
                 <div class="post">
 
+                    <h3>May 14th, 2014</h3>
+                    <p>
+                        <b>In the past week:</b><br>
+                        <br>
+                        Vinod and Mitchell finished most of the Music USB application, and internet radio is still under progress. The general design for the driver feedback has been confirmed, and ready to implement. Coding for leap motion gestures are also underway. <br>
+                        <br>
+                        We have also added some more visual cues to our app for the new user and passenger's sake. This includes a loading animation and a slider indication animation:<br>
+                        <br>
+                        <br>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/E1MYYDnDjG0" frameborder="0" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                        For Ryan and Nate, after using a signal generator to drive a linear resonant actuator via the prototype H-bridge, they decided that it was not powerful/fast enough for our use case. Instead, they are going to use a single transistor to switch on/off the current to a linear resonate actuator.  While the current flows in only one direction, unlike the H-bridge, not having to use a resister to limit the current flow during the PWM transients allows for higher current flow, offsetting the lose of the dual current direction of the H-bridge.  Not only is this a simpler design, using a single transistor per actuator, it also has a higher output, several times more powerful the what the h-bridge could produce.<br>
+                        They successfully installed a bootloader onto a handful of Atmel ATmega328 processors which took some jerry-rigging due to slight differences between ours and those used in Arduinos.<br>
+                        <br>
+                        <br>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/jhvYeTbAOo8" frameborder="0" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                        <b>For next week:</b> <br>
+                        <br>
+                        For Mitch and Vinod, finish music app and get as much done on driver feedback app, EVE, and leap motion as possible. <br>
+                        For Ryan and Nate, they are now experimenting with reducing the number of pulses from the ATmega's internal timers to get lower-frequency PWM signals for vibration feedback. They may also generate the vibrations manually. <br>
+                        <br>
+                        Also, we heard back about the original screen we wanted to use, and it seems like we will get that by the end of this week, but we are not taking any chances, and are keeping a backup screen.<br>
+                        <br>
+                        Finally, the car will be leaving at the earliest on Friday of next week. So by then, we need to integrate our two components of applications and vibration working together.
+                    </p>
+                </div>
+
+                <div class="post">
+
                     <h3>May 13th, 2014 (Tuesday): Kickstarter Video First Draft</h3>
                     <p>
                         Here is the first draft for the video of our Kickstarter page:<br>
@@ -330,7 +362,7 @@
                     <p>
                         <b>In the past week:</b><br>
                         <br>
-                        Vinod and Mitchell finalized climate control app. We tested our interface in the car, and were successfuly able to change the vent fan speed using our interface. Some of the other signals such as temperature are not being responsive. However, we can firm through our CAN loggin tools that the messages are correctly being sent. After checking with our GM mentor, we have learned that this is a widespread issue among all the teams in EcoCar, and there is no solution for why the CHEVY Malibus do not respond to these signals which were given to us by GM. Because our logic is correct and given our limited amount of time, we decided to move on to the music app. <br>
+                        Vinod and Mitchell finalized climate control app. We tested our interface in the car, and were successfuly able to change the vent fan speed using our interface. Some of the other signals such as temperature are not being responsive. However, we confimed through our CAN logging tools that the messages are correctly being sent. After checking with our GM mentor, we have learned that this is a widespread issue among all the teams in EcoCar, and there is no solution for why the CHEVY Malibus do not respond to these signals which were given to us by GM. Because our logic is correct and given our limited amount of time, we decided to move on to the music app. <br>
                         This week we have completed the interface for the USB portion of the application. For internet radio, we planned to use Last.fm, but they cancelled their radio service. Therefore, right now we are exploring <a href="http://developer.feed.fm/documentation">Feed.fm</a> and <a href="http://www.iheart.com/">iHeartRadio</a>.<br>
                         <br>
                         Ryan and Nate built an arduino prototype and are able to get power back out of the board, but are unable to get it to respond.<br>
