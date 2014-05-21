@@ -289,9 +289,9 @@ a:hover {
   font-size: 18px;
 }
 
-#freeScale .image {
+#leapMotion .image {
   height: 440px;
-  background-image: url('../images/imx6.jpg');
+  background-image: url('../images/leap_motion.jpg');
 }
 
 #bezel, #music {

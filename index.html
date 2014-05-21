@@ -121,23 +121,6 @@
                         </p>
 					</p>
                 </div>
-
-                <h2>
-                    Freescale Innovation Award
-                </h2>
-                <div id="playbook" class="rightPanelContent">
-                    <div class="image"></div>
-                    <div class="caption">A tactile feedback concept developed by the UW EcoCAR 2 team that placed 2nd in the Year 2 Freescale Innovation Award.</div>
-                </div>
-                <div class="leftPanelContent">
-                    <p>
-                        Freescale Semiconductor has donated an i.MX6 Sabre Automotive Infotainment processor board to each team. Freescale is also is offering a $1,000 cash prize to the team that can use their hardware to create an innovative touch screen interface in the team's car. <br>
-                        <br>
-                        At the Year 2 Competition, the UW EcoCAR 2 team attempted to use the QNXCAR 2 platform on the i.MX6 hardware to run HTML5 apps that could communicate with other controllers in the vehicle over the vehicle CAN buses. However, there were many issues with the QNXCAR 2 software that were not able to be overcome. Despite these challenges, the UW EcoCAR 2 team was able to demonstrate their unique touch screen interface using several BlackBerry Playbooks. The interface features a clear plastic overlay on the screen with cut outs in it (much like a stencil) to help guide a user's finger without the user having to look at the screen. This concept impressed the judges and the UW EcoCAR 2 team earned 2nd place in the Freescale Innovation Award and earned a $500 prize. <br>
-                        <br>
-                        This year the EVE team aims to assist the UW EcoCAR 2 team in achieving 1st place!
-                    </p>
-                </div>
             </div>
         </div>
         
@@ -243,20 +226,20 @@
 				
                 </div>			
 				
-                <div id="freeScale" class="rightPanelContent">
+                <div id="leapMotion" class="rightPanelContent">
                     <div class="image"></div>
-                    <div class="caption">EVE uses the freescale i.MX6 Microprocessor for low power consumption, low cost, and small form factor.</div>
+                    <div class="caption">EVE uses a leap motion for common actions so that interaction with the screen is not necessary at all.</div>
                 </div>
                 <div class="leftPanelContent">
 				
 			        <h2>
-                        i.MX6
+                        Leap Motion
                     </h2>
 				
                     <p>
-                        Freescale Semiconductor has donated an i.MX6 Sabre Automotive Infotainment board. The i.MX6 is an embedded platform with a quad-core 1 GHz processor and all of the peripheral capabilities imaginable for an automotive purpose. It includes 2 CAN bus connections, HDMI, USB, audio in/out, ethernet, bluetooth capabilities and more. The low power consumption, low cost, and small form factor of the i.MX6 make it an ideal platform for running EVE in an automotive environment. <br>
+                        A<a href="https://www.leapmotion.com/product"> Leap Motion </a>is used to add an additional layer of safety for common interactions the driver may have with EVE. For example, skipping to the next song is something that is done very often. To further, minimize the necessity of visually looking., One can simply place their hand in front of the screen and swipe right to push the music forward one track. The infared sensing of the Leap Motion allows EVE to do this.<br>
                         <br>
-                        The EVE interface has been developed as a node-webkit app. The UI is written in HTML5, CSS, and JavaScript, and thanks to the power of node-webkit, is rendered in a fullscreen webkit browser while simultaneously running node.js to access additional hardware and networking capabilities that take advantage of the i.MX6. Combine EVE, node-webkit, Ubuntu, and the i.MX6 and you have the next generation touchscreen interface.
+                        The EVE interface has been developed as a node-webkit app. The UI is written in HTML5, CSS, and JavaScript, and thanks to the power of node-webkit, is rendered in a fullscreen webkit browser while simultaneously running node.js to provide a nice UI that Leap can be incorportated to. Combine EVE, node-webkit, Ubuntu, and the Leap Mptopm and you have the next generation touchscreen interface.
                     </p>
 					
                     <h2>
@@ -307,6 +290,58 @@
                 <h1>
                     Notebook
                 </h1>
+
+                <div class="post">
+
+                    <h3>May 21th, 2014</h3>
+                    <p>
+                        <b>In the past week:</b><br>
+                        <br>
+                        Mitchell and Vinod have started work on the Leap Motion and the EVE interface.
+                        We have decided the fit the leap motion above in the sun glasses holder. Using the 3D printer, we printed out some support hinges that helps keep it in place.
+                        <br>
+                        <br>
+                        <img src="images/may21_1.jpg" width="640" height="480" /><br>
+                        <br>
+                        <br>
+                        Here is also a picture of the hardware mount that has been 3D printed as well. We chose this color to stick with our color theme for our website.
+                        <br>
+                        <br>
+                        <img src="images/may21_2.jpg" width="640" height="480" /><br>
+                        <br>
+                        <br>
+                        Coding for leap is also underway. We have decided that currently we will support four gestures with leap. When someon's hand is at the right distance away, a leap menu will show up on the screen, with gesture to one direction skipping a song, while gestures in another direct play and pause, and so forth. Here is a video of this application.<br>
+                        <br>
+                        <br>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/-YlJt0oOJxI" frameborder="0" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                        <br>
+                        Ryan and Nate soldered a copy of the microcontroller board and spent lots of time troubleshooting it. They have been working on building more abstracted embedded code.<br>
+                        <br>
+                        Because the PWM from the Arduino could only go as low as 30ish hz, they switched over to using timer interrupts to manually toggle on/off digital outputs of the Arduino.<br>
+                        <br>
+                        <br>
+                        In addition to apps, Vinod worked on the second draft of the Kickstarter page to provide more content. The video is still the same, because we plan to film our final video this weekend when everything is put together in the car.
+                        <br>
+                        <br>
+                        <b>Our plan</b><br>
+                        <br>
+                        To be clear of our plan, the car leaves next Tuesday morning. Therefore, we plan to get the applications to enough of a level, and the vibration with screen (which arrived!) so that we can film our kickstarter video on Sunday while everyone is still here.<br>
+                        <br>
+                        Then once the car is gone, we will continue to work on applications and tweaks to the vibration code.<br>
+                        <br>
+                        The, Mitch, Nate, and Ryan will leave for the competition. While they continue to work on the car over there. I will work on apps from here. So, we will get permission to film a video for our final presentation/demo, although it may not be live. Then, I will present it in class on our demo date of June 9th or so.<br>
+                        <br>
+                        <br>
+                        <b>With this in mind, for next week:</b> <br>
+                        <br>
+                        For Mitch and Vinod, finish apps as much as possible so they are at a nice state for the kickstarter video. <br>
+                        <br>
+                        Ryan and Nate are working on a way to use a single timer interrupt to drive three different buzzers at different frequency, developed a concept, now just implementing it in software.  They need to create a node module that will interface with the Arduino via serial.  They finally got all of the parts required for the feed back system, now in the processes of soldering the driver board (which will have 5 transistors to drive the power to the buzzers). <br>
+                        <br>
+                    </p>
+                </div>
 
                 <div class="post">
 
